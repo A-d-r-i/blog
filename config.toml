@@ -1,3 +1,48 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+
+baseURL = "https://adri.ddns.net"
+languageCode = "fr-fr"
+title = "A-d-r-i"
+theme="archie"
+copyright = "© A-d-r-i"
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+ignoreErrors = ["error-missing-instagram-accesstoken"]
+[params]
+	mode="auto"
+	useCDN=false
+	subtitle = "Cartographer on @openstreetmap 🗺 | Archivist on @internetarchive 🏛 | Package maintainer on @chocolateynuget 🔧 |  PGP : https://keybase.io/a_d_r_i "
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/a-d-r-i"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/ad_r_i"
+
+[[params.social]]
+name = "GitLab"
+icon = "gitlab"
+url = "https://gitlab.com/a-d-r-i"
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
